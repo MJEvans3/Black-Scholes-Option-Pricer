@@ -6,13 +6,16 @@ A comprehensive Black-Scholes option pricing tool that evolves from a simple com
 
 ### ✨ Core Functionality
 - **Black-Scholes Pricing**: Accurate European call and put option pricing
+- **Greeks Calculation**: Real-time calculation of Delta, Gamma, Theta, Vega, and Rho
 - **Interactive Web Interface**: User-friendly Streamlit application
 - **P&L Analysis**: Real-time profit/loss calculations with visual heat maps
 - **Database Integration**: Persistent storage of calculations and results
 - **Historical Tracking**: View past calculations and analysis
+- **Options Chain Analysis**: Fetch real-time options data, calculate theoretical prices and implied volatilities.
+- **Simple AI Chat Function**: Interact with an AI to get insights on options, P&L, and Greeks.
 
 ### 📊 Visualization
-- **Interactive Heat Maps**: Visualize P&L across different stock prices and volatilities
+- **Interactive Heat Maps**: Visualize P&L and Greeks (Delta, Gamma, Vega) across different stock prices and volatilities
 - **Color-coded Results**: Green for profits, red for losses
 - **Configurable Ranges**: Customize analysis parameters
 - **Real-time Updates**: Instant recalculation and visualization
